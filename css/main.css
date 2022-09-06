@@ -1,0 +1,82 @@
+.buttons {
+  display: flex;
+  gap: 70px;
+  margin-top: 100px;
+}
+.buttons .grow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  background-color: gray;
+  color: white;
+  font-size: 24px;
+  margin-left: 50px;
+  transition: 1s ease;
+}
+.buttons .grow:hover {
+  transform: scale(1.1);
+}
+
+.shrink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  background-color: gray;
+  color: white;
+  font-size: 24px;
+  transition: 1s ease;
+}
+.shrink:hover {
+  transform: scale(0.9);
+}
+
+.rotate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  background-color: gray;
+  color: white;
+  font-size: 24px;
+  transition: 1s ease;
+}
+.rotate:hover {
+  transform: rotate(4deg);
+}
+
+.grow-rotate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  background-color: gray;
+  color: white;
+  font-size: 18px;
+  transition: 1s ease;
+}
+.grow-rotate:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.sink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  background-color: gray;
+  color: white;
+  font-size: 24px;
+  transition: 1s ease;
+}
+.sink:hover {
+  transform: translateY(10px);
+}
+
+@im;/*# sourceMappingURL=main.css.map */

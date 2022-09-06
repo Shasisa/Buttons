@@ -1,0 +1,22 @@
+.buttons {
+    display: flex;
+    gap: 70px;
+    margin-top: 100px;
+
+    .grow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 50px;
+        background-color: gray;
+        color: white;
+        font-size: 24px;
+        margin-left: 50px;
+        transition: 1s ease;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
